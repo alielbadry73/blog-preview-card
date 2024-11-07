@@ -91,6 +91,10 @@ h2 {
   color: hsl(0, 0%, 7%);
 }
 
+h2:active, h2:hover {
+  color: hsl(47, 88%, 63%);
+}
+
 .main-text-I {
   font-family: "Figtree-variable-font";
   font-size: 16px;

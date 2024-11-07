@@ -13,7 +13,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 
-
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Tainicknackz/blog-preview-card.git)
+- Live Site URL: (https://joyful-florentine-5753c7.netlify.app/)
 
 ## My process
 
@@ -73,4 +72,3 @@ To see how you can add code snippets, see below:
 
 - GitHub - [Tainicknackz](https://github.com/Tainicknackz)
 - Frontend Mentor - [@Tainicknack00](https://www.frontendmentor.io/profile/Tainicknack0505)
-
