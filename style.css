@@ -121,28 +121,6 @@ h2:active, h2:hover {
   font-weight: 800;
   color: hsl(0, 0%, 7%);
 }
-
-.details {
-  display: flex;
-  font-size: 14px;
-  margin-top: 20px;
-  text-align: left;
-  color: hsl(218, 44%, 22%);
-}
-
-.details p {
-  font-family: "Figtree-semi-bold";
-  color: hsl(0, 0%, 7%);
-  font-weight: 500;
-}
-
-.details a {
-  font-family: "Figtree-extra-bold";
-  font-weight: 800;
-  text-decoration: none;
-  color: hsl(0, 0%, 47%);
-}
-
 @media (max-width: 375px) {
   body {
     margin: 0 auto;
