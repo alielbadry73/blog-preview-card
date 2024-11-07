@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Figtree-extra-bold";
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Figtree-semi-bold";
+  src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Figtree-variable-font";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  padding: 18px;
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+  position: relative;
+}
+
+.container::after {
+  display: inline-block;
+  content: "";
+  width: 400px;
+  height: 560px;
+  background-color: hsl(0, 0%, 7%);
+  border: 1.5px solid hsl(0, 0%, 7%);
+  border-radius: inherit;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+header {
+  display: block;
+  margin: 16px 0;
+}
+
+header .header-text-I {
+  font-family: "Figtree-extra-bold";
+  font-size: 16px;
+  font-size: 800;
+  padding: 8px;
+  width: 89px;
+  background-color: hsl(47, 88%, 63%);
+  text-align: center;
+  border-radius: 4px;
+  color: hsl(0, 0%, 7%);
+}
+
+header .header-text-II {
+  font-family: "Figtree-variable-font";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 14px 0;
+}
+
+h2 {
+  font-family: "Figtree-extra-bold";
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: hsl(0, 0%, 7%);
+}
+
+.main-text-I {
+  font-family: "Figtree-variable-font";
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(0, 0%, 57%);
+  line-height: 1.4;
+}
+
+.image-avatar {
+  display: flex;
+  margin-top: 25px;
+  gap: 3%;
+  align-items: center;
+}
+
+.image-avatar img {
+  width: 30px;
+  height: 30px;
+}
+
+.image-avatar .avatar-text-I {
+  font-family: "Figtree-extra-bold";
+  font-size: 14px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+.details {
+  display: flex;
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: left;
+  color: hsl(218, 44%, 22%);
+}
+
+.details p {
+  font-family: "Figtree-semi-bold";
+  color: hsl(0, 0%, 7%);
+  font-weight: 500;
+}
+
+.details a {
+  font-family: "Figtree-extra-bold";
+  font-weight: 800;
+  text-decoration: none;
+  color: hsl(0, 0%, 47%);
+}
+
+@media (max-width: 375px) {
+  body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 18px;
+    max-width: 325px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .container::after {
+    display: block;
+    content: "";
+    width: 320px;
+    height: 501px;
+    border: 1.5px solid hsl(0, 0%, 7%);
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: -1;
+  }
+
+  .main-text-I {
+    font-family: "Figtree-variable-font";
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 57%);
+    line-height: 1.4;
+  }
+
+  .details {
+    display: flex;
+    font-size: 12px;
+    margin-top: 20px;
+    color: hsl(218, 44%, 22%);
+  }
+}
